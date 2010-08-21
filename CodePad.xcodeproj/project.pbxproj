@@ -7,121 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* CodePadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CodePadAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
-		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
-		2804203C108E9BAB000629CD /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* DetailView.xib */; };
-		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		1D0E2F97121FA54C0086E931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F96121FA54C0086E931 /* UIKit.framework */; };
+		1D0E2F99121FA54C0086E931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F98121FA54C0086E931 /* Foundation.framework */; };
+		1D0E2F9B121FA54C0086E931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F9A121FA54C0086E931 /* CoreGraphics.framework */; };
+		1D0E2FA0121FA54C0086E931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */; };
+		1D0E2FA2121FA54C0086E931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA1121FA54C0086E931 /* main.m */; };
+		1D0E2FA5121FA54C0086E931 /* CodePadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA4121FA54C0086E931 /* CodePadAppDelegate.m */; };
+		1D0E2FA8121FA54C0086E931 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA6121FA54C0086E931 /* MainWindow.xib */; };
+		1D0E2FAB121FA54C0086E931 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FAA121FA54C0086E931 /* DetailViewController.m */; };
+		1D0E2FAE121FA54C0086E931 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2FAC121FA54C0086E931 /* DetailView.xib */; };
+		1D0E2FB1121FA54C0086E931 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FB0121FA54C0086E931 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* CodePadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePadAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* CodePadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePadAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* CodePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		28042009108E984D000629CD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		2804200A108E984D000629CD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		2804203B108E9BAB000629CD /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
-		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AAE50D9B0CCF005BE974 /* CodePad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePad_Prefix.pch; sourceTree = "<group>"; };
-		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* CodePad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CodePad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		1D0E2F93121FA54C0086E931 /* CodePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0E2F96121FA54C0086E931 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D0E2F98121FA54C0086E931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D0E2F9A121FA54C0086E931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D0E2F9C121FA54C0086E931 /* CodePad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodePad-Info.plist"; sourceTree = "<group>"; };
+		1D0E2F9D121FA54C0086E931 /* CodePad_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodePad_Prefix.pch; sourceTree = "<group>"; };
+		1D0E2F9F121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D0E2FA1121FA54C0086E931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D0E2FA3121FA54C0086E931 /* CodePadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodePadAppDelegate.h; sourceTree = "<group>"; };
+		1D0E2FA4121FA54C0086E931 /* CodePadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodePadAppDelegate.m; sourceTree = "<group>"; };
+		1D0E2FA7121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1D0E2FA9121FA54C0086E931 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1D0E2FAA121FA54C0086E931 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1D0E2FAD121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		1D0E2FAF121FA54C0086E931 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1D0E2FB0121FA54C0086E931 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+		1D0E2F90121FA54C0086E931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				1D0E2F97121FA54C0086E931 /* UIKit.framework in Frameworks */,
+				1D0E2F99121FA54C0086E931 /* Foundation.framework in Frameworks */,
+				1D0E2F9B121FA54C0086E931 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
+		1D0E2F84121FA54A0086E931 = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* CodePadAppDelegate.h */,
-				1D3623250D0F684500981E51 /* CodePadAppDelegate.m */,
-				28042007108E984D000629CD /* RootViewController.h */,
-				28042008108E984D000629CD /* RootViewController.m */,
-				28042009108E984D000629CD /* DetailViewController.h */,
-				2804200A108E984D000629CD /* DetailViewController.m */,
+				1D0E2F8B121FA54B0086E931 /* Classes */,
+				1D0E2F8C121FA54C0086E931 /* Other Sources */,
+				1D0E2F8D121FA54C0086E931 /* Resources */,
+				1D0E2F8E121FA54C0086E931 /* Frameworks */,
+				1D0E2F94121FA54C0086E931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0E2F8B121FA54B0086E931 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D0E2FA3121FA54C0086E931 /* CodePadAppDelegate.h */,
+				1D0E2FA4121FA54C0086E931 /* CodePadAppDelegate.m */,
+				1D0E2FA9121FA54C0086E931 /* DetailViewController.h */,
+				1D0E2FAA121FA54C0086E931 /* DetailViewController.m */,
+				1D0E2FAF121FA54C0086E931 /* RootViewController.h */,
+				1D0E2FB0121FA54C0086E931 /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		19C28FACFE9D520D11CA2CBB /* Products */ = {
+		1D0E2F8C121FA54C0086E931 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* CodePad.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
-			isa = PBXGroup;
-			children = (
-				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
-			);
-			name = CustomTemplate;
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				28A0AAE50D9B0CCF005BE974 /* CodePad_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				1D0E2F9D121FA54C0086E931 /* CodePad_Prefix.pch */,
+				1D0E2FA1121FA54C0086E931 /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
+		1D0E2F8D121FA54C0086E931 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				2804203B108E9BAB000629CD /* DetailView.xib */,
-				8D1107310486CEB800E47090 /* CodePad-Info.plist */,
+				1D0E2F9C121FA54C0086E931 /* CodePad-Info.plist */,
+				1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */,
+				1D0E2FA6121FA54C0086E931 /* MainWindow.xib */,
+				1D0E2FAC121FA54C0086E931 /* DetailView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+		1D0E2F8E121FA54C0086E931 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				1D0E2F96121FA54C0086E931 /* UIKit.framework */,
+				1D0E2F98121FA54C0086E931 /* Foundation.framework */,
+				1D0E2F9A121FA54C0086E931 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D0E2F94121FA54C0086E931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0E2F93121FA54C0086E931 /* CodePad.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* CodePad */ = {
+		1D0E2F92121FA54C0086E931 /* CodePad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CodePad" */;
+			buildConfigurationList = 1D0E2FB4121FA54C0086E931 /* Build configuration list for PBXNativeTarget "CodePad" */;
 			buildPhases = (
-				1D60588D0D05DD3D006BFB54 /* Resources */,
-				1D60588E0D05DD3D006BFB54 /* Sources */,
-				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				1D0E2F8F121FA54C0086E931 /* Sources */,
+				1D0E2F90121FA54C0086E931 /* Frameworks */,
+				1D0E2F91121FA54C0086E931 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,94 +131,94 @@
 			);
 			name = CodePad;
 			productName = CodePad;
-			productReference = 1D6058910D05DD3D006BFB54 /* CodePad.app */;
+			productReference = 1D0E2F93121FA54C0086E931 /* CodePad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29B97313FDCFA39411CA2CEA /* Project object */ = {
+		1D0E2F86121FA54A0086E931 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CodePad" */;
+			buildConfigurationList = 1D0E2F89121FA54A0086E931 /* Build configuration list for PBXProject "CodePad" */;
 			compatibilityVersion = "Xcode 3.2";
-			hasScannedForEncodings = 1;
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
 				en,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			mainGroup = 1D0E2F84121FA54A0086E931;
+			productRefGroup = 1D0E2F94121FA54C0086E931 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* CodePad */,
+				1D0E2F92121FA54C0086E931 /* CodePad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+		1D0E2F91121FA54C0086E931 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
+				1D0E2FA0121FA54C0086E931 /* InfoPlist.strings in Resources */,
+				1D0E2FA8121FA54C0086E931 /* MainWindow.xib in Resources */,
+				1D0E2FAE121FA54C0086E931 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+		1D0E2F8F121FA54C0086E931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* CodePadAppDelegate.m in Sources */,
-				2804200B108E984D000629CD /* RootViewController.m in Sources */,
-				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
+				1D0E2FA2121FA54C0086E931 /* main.m in Sources */,
+				1D0E2FA5121FA54C0086E931 /* CodePadAppDelegate.m in Sources */,
+				1D0E2FAB121FA54C0086E931 /* DetailViewController.m in Sources */,
+				1D0E2FB1121FA54C0086E931 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0E2F9F121FA54C0086E931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D0E2FA6121FA54C0086E931 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0E2FA7121FA54C0086E931 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1D0E2FAC121FA54C0086E931 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0E2FAD121FA54C0086E931 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		1D6058940D05DD3E006BFB54 /* Debug */ = {
+		1D0E2FB2121FA54C0086E931 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CodePad_Prefix.pch;
-				INFOPLIST_FILE = "CodePad-Info.plist";
-				PRODUCT_NAME = CodePad;
-			};
-			name = Debug;
-		};
-		1D6058950D05DD3E006BFB54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CodePad_Prefix.pch;
-				INFOPLIST_FILE = "CodePad-Info.plist";
-				PRODUCT_NAME = CodePad;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C01FCF4F08A954540054247B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
@@ -225,13 +227,12 @@
 			};
 			name = Debug;
 		};
-		C01FCF5008A954540054247B /* Release */ = {
+		1D0E2FB3121FA54C0086E931 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = armv7;
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -241,28 +242,56 @@
 			};
 			name = Release;
 		};
+		1D0E2FB5121FA54C0086E931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CodePad_Prefix.pch;
+				INFOPLIST_FILE = "CodePad-Info.plist";
+				PRODUCT_NAME = CodePad;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D0E2FB6121FA54C0086E931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CodePad_Prefix.pch;
+				INFOPLIST_FILE = "CodePad-Info.plist";
+				PRODUCT_NAME = CodePad;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CodePad" */ = {
+		1D0E2F89121FA54A0086E931 /* Build configuration list for PBXProject "CodePad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D6058940D05DD3E006BFB54 /* Debug */,
-				1D6058950D05DD3E006BFB54 /* Release */,
+				1D0E2FB2121FA54C0086E931 /* Debug */,
+				1D0E2FB3121FA54C0086E931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CodePad" */ = {
+		1D0E2FB4121FA54C0086E931 /* Build configuration list for PBXNativeTarget "CodePad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01FCF4F08A954540054247B /* Debug */,
-				C01FCF5008A954540054247B /* Release */,
+				1D0E2FB5121FA54C0086E931 /* Debug */,
+				1D0E2FB6121FA54C0086E931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+	rootObject = 1D0E2F86121FA54A0086E931 /* Project object */;
 }

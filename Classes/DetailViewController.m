@@ -1,28 +1,30 @@
 //
 //  DetailViewController.m
 //  CodePad
-/*
- 
- This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License. 
- To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/us/ or send a letter to 
- Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
- 
-*/
+//
+//  Created by Ze'ev Klapow on 8/20/10.
+//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//
+
 
 #import "DetailViewController.h"
-#import "RootViewController.h"
 
+#import "RootViewController.h"
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
 - (void)configureView;
 @end
 
-
-
 @implementation DetailViewController
 
-@synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
+@synthesize toolbar;
+
+@synthesize detailItem;
+
+@synthesize detailDescriptionLabel;
+
+@synthesize popoverController;
 
 #pragma mark -
 #pragma mark Managing the detail item
@@ -44,19 +46,39 @@
     }        
 }
 
-
 - (void)configureView {
     // Update the user interface for the detail item.
-    detailDescriptionLabel.text = [detailItem description];   
+
+    detailDescriptionLabel.text = [detailItem description];
 }
 
+/*
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+*/
+/*
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+*/
+/*
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+}
+*/
+/*
+- (void)viewDidDisappear:(BOOL)animated {
+	[super viewDidDisappear:animated];
+}
+*/
 
 #pragma mark -
 #pragma mark Split view support
 
 - (void)splitViewController: (UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController: (UIPopoverController*)pc {
     
-    barButtonItem.title = @"Root List";
+    barButtonItem.title = @"Events";
     NSMutableArray *items = [[toolbar items] mutableCopy];
     [items insertObject:barButtonItem atIndex:0];
     [toolbar setItems:items animated:YES];
@@ -85,8 +107,9 @@
 }
 
 
-#pragma mark -
-#pragma mark View lifecycle
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation duration:(NSTimeInterval)duration {
+}
+
 
 /*
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -94,54 +117,29 @@
     [super viewDidLoad];
 }
  */
-
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-*/
-
 - (void)viewDidUnload {
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-    self.popoverController = nil;
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+	self.popoverController = nil;
 }
-
-
 #pragma mark -
 #pragma mark Memory management
 
-/*
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
+	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
+	
+	// Release any cached data, images, etc that aren't in use.
 }
-*/
 
 - (void)dealloc {
+
     [popoverController release];
     [toolbar release];
-    
     [detailItem release];
     [detailDescriptionLabel release];
     [super dealloc];
 }
 
 @end
+
