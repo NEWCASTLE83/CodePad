@@ -10,13 +10,12 @@
 		1D0E2F97121FA54C0086E931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F96121FA54C0086E931 /* UIKit.framework */; };
 		1D0E2F99121FA54C0086E931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F98121FA54C0086E931 /* Foundation.framework */; };
 		1D0E2F9B121FA54C0086E931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E2F9A121FA54C0086E931 /* CoreGraphics.framework */; };
-		1D0E2FA0121FA54C0086E931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */; };
 		1D0E2FA2121FA54C0086E931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA1121FA54C0086E931 /* main.m */; };
 		1D0E2FA5121FA54C0086E931 /* CodePadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA4121FA54C0086E931 /* CodePadAppDelegate.m */; };
-		1D0E2FA8121FA54C0086E931 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2FA6121FA54C0086E931 /* MainWindow.xib */; };
 		1D0E2FAB121FA54C0086E931 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FAA121FA54C0086E931 /* DetailViewController.m */; };
-		1D0E2FAE121FA54C0086E931 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0E2FAC121FA54C0086E931 /* DetailView.xib */; };
 		1D0E2FB1121FA54C0086E931 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E2FB0121FA54C0086E931 /* RootViewController.m */; };
+		1D1F5EA4121FACE60095EF4B /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F5EA3121FACE60095EF4B /* DetailView.xib */; };
+		1D1F5EA6121FACEC0095EF4B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F5EA5121FACEC0095EF4B /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,16 +25,15 @@
 		1D0E2F9A121FA54C0086E931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D0E2F9C121FA54C0086E931 /* CodePad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodePad-Info.plist"; sourceTree = "<group>"; };
 		1D0E2F9D121FA54C0086E931 /* CodePad_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodePad_Prefix.pch; sourceTree = "<group>"; };
-		1D0E2F9F121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D0E2FA1121FA54C0086E931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D0E2FA3121FA54C0086E931 /* CodePadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodePadAppDelegate.h; sourceTree = "<group>"; };
 		1D0E2FA4121FA54C0086E931 /* CodePadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodePadAppDelegate.m; sourceTree = "<group>"; };
-		1D0E2FA7121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		1D0E2FA9121FA54C0086E931 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		1D0E2FAA121FA54C0086E931 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1D0E2FAD121FA54C0086E931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
 		1D0E2FAF121FA54C0086E931 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1D0E2FB0121FA54C0086E931 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1D1F5EA3121FACE60095EF4B /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		1D1F5EA5121FACEC0095EF4B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +86,9 @@
 		1D0E2F8D121FA54C0086E931 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1D1F5EA5121FACEC0095EF4B /* MainWindow.xib */,
+				1D1F5EA3121FACE60095EF4B /* DetailView.xib */,
 				1D0E2F9C121FA54C0086E931 /* CodePad-Info.plist */,
-				1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */,
-				1D0E2FA6121FA54C0086E931 /* MainWindow.xib */,
-				1D0E2FAC121FA54C0086E931 /* DetailView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,9 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0E2FA0121FA54C0086E931 /* InfoPlist.strings in Resources */,
-				1D0E2FA8121FA54C0086E931 /* MainWindow.xib in Resources */,
-				1D0E2FAE121FA54C0086E931 /* DetailView.xib in Resources */,
+				1D1F5EA4121FACE60095EF4B /* DetailView.xib in Resources */,
+				1D1F5EA6121FACEC0095EF4B /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,33 +178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1D0E2F9E121FA54C0086E931 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D0E2F9F121FA54C0086E931 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1D0E2FA6121FA54C0086E931 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D0E2FA7121FA54C0086E931 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		1D0E2FAC121FA54C0086E931 /* DetailView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D0E2FAD121FA54C0086E931 /* en */,
-			);
-			name = DetailView.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D0E2FB2121FA54C0086E931 /* Debug */ = {
